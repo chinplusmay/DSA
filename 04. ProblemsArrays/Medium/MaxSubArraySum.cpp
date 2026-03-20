@@ -31,7 +31,7 @@ int Better(vector<int>& nums){
     }return maxSum;
 }
 
-//Kadane's Algo
+//Kadane's Algo do not take -ve's to future
 int Optimal(vector<int>& nums){
     int n = nums.size();
     int maxSum = INT_MIN;
