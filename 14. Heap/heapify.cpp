@@ -25,7 +25,7 @@ int main(){
     int n = 5;
 
     //Build heap
-    for(int i = n/2; i >= 1; i--){  //iterate pn non lead nodes= n/2 -> 1
+    for(int i = n/2; i >= 1; i--){  //iterate on non-leaf nodes= n/2 -> 1
         heapify(arr, n, i);
     }
 
