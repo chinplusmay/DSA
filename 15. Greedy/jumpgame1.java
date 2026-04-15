@@ -1,7 +1,7 @@
 import java.util.*;
 
 // we can jump to any index which is <= arr[i]
-// ex 2 3 1 1 4, at index 0:a[0]=2 so we can jump either 1 or 2 times
+// ex 2 3 1 1 4, at index 0:a[0]=2 so we can jump to either 1 , 2 index
 // we will track the max index we can jump to if we encounter a index which is greater than maxindex thats not possble hence false
 
 public class jumpgame1 {
