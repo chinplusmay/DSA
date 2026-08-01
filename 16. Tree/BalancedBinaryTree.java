@@ -12,7 +12,7 @@ class Node {
     }
 }
 
-// Balanced Binary Tree : every node of tree have abs(leftHeight - rightHeight) >= 1
+// Balanced Binary Tree : every node of tree have abs(leftHeight - rightHeight) <= 1
 
 public class BalancedBinaryTree{
     // to find height from each node
